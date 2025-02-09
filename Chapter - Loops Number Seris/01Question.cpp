@@ -1,3 +1,5 @@
+//2, 1, (1/2), (1/4), ...Number series print
+
 #include<iostream>
 using namespace std;
 
@@ -13,7 +15,6 @@ int main()
 		n*=2;
 		i++;
 	}
-	
+
 	return 0;
-	
 }

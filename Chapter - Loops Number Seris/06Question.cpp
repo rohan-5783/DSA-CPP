@@ -1,19 +1,19 @@
-#include<iostream>
+//21, 9, 21, 11, 21, 13, 21, ...  Number series print
+
+#include <iostream>
 using namespace std;
 
-int main()
+int main() 
 {
-    int firstnum = 21; 
-    int secondnum = 9;
+    int firstnumber = 21, secondnumber = 9;
 
-    
-    for (int i = 0; i < 3; i++) 
-	{ 
-        cout << firstnum << ", " << secondnum << ", ";
-        secondnum += 2; // 
+    for (int i = 0; i < 10; i++)
+    { 
+        cout << firstnumber << ", " << secondnumber << ", ";
+        secondnumber += 2;  
     }
-    
-    cout << firstnum << endl;
+    cout << firstnumber << endl;
 
-    return 0;
+    return 0; 
 }
+
